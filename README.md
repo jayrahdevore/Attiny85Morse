@@ -1,8 +1,7 @@
 # attiny85 Morse Keyer
 
-### And why?
 Apparenly amateur radio operators still use Morse code.  It's efficient and uses little bandwith.
-After finding how much a proper mechanical switch--[key or keyer](http://hamuniverse.com/n2eycodekeys.html)--costs, I resolved to building a one.
+After finding how much a proper mechanical switch--[key or keyer](http://hamuniverse.com/n2eycodekeys.html)--costs, I resolved to building one.
 
 ---
 ### Schematic
