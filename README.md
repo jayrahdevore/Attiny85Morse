@@ -1,14 +1,19 @@
 # attiny85 Morse Keyer
-A minimalist morse code keyer using an attiny85 micro and capacitive touch
+
+### And why?
+Apparenly amateur radio operators still use Morse code.  It's efficient and uses little bandwith.
+After finding how much a proper mechanical switch--[key or keyer](http://hamuniverse.com/n2eycodekeys.html)--costs, I resolved to building a one.
 
 ---
-###Schematic
+### Schematic
 
-![alt text](schematic.png "Circuit Schematic")
+![alt text](https://github.com/legowave440/Attiny85Morse/schematic.png "Circuit Schematic")
 
-### TODO:
-
-* create and upload schematic
-* port to AVR-C
-* upload photos of example build
-
+### Future Improvements
+* Use hardware timer interrupts instead of `_delay_()` functions, to permit multitasking
+* Rework connections to allow bit-shifting code golf to replace `if` statements
+* Lay out a PCB with SMD components for a smaller size
+* Swap out output transistors with an optoisolator
+* Use radio power (for radio integration)
+* Add electronic keying for traditional keyed radios
+* Learn morse code
