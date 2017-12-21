@@ -7,7 +7,7 @@ After finding how much a proper mechanical switch--[key or keyer](http://hamuniv
 ---
 ### Schematic
 
-![alt text](https://github.com/legowave440/Attiny85Morse/schematic.png "Circuit Schematic")
+![alt text](https://raw.githubusercontent.com/legowave440/Attiny85Morse/master/schematic.png "Circuit Schematic")
 
 ### Future Improvements
 * Use hardware timer interrupts instead of `_delay_()` functions, to permit multitasking
