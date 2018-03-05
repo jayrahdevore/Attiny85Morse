@@ -1,7 +1,7 @@
 # attiny85 Morse Keyer
 
-Apparenly amateur radio operators still use Morse code.  It's efficient and uses little bandwith.
-After finding how much a proper mechanical switch--[key or keyer](http://hamuniverse.com/n2eycodekeys.html)--costs, I resolved to building one.
+<!--Apparenly amateur radio operators still use Morse code.  It's efficient and uses little bandwith.
+After finding how much a proper mechanical switch--[key or keyer](http://hamuniverse.com/n2eycodekeys.html)--costs, I resolved to building one.-->
 
 ---
 ### Schematic
@@ -10,9 +10,8 @@ After finding how much a proper mechanical switch--[key or keyer](http://hamuniv
 
 ### Future Improvements
 * Use hardware timer interrupts instead of `_delay_()` functions, to permit multitasking
-* Rework connections to allow bit-shifting code golf to replace `if` statements
+* Rework connections to allow bit-shifting to replace `if` statements
 * Lay out a PCB with SMD components for a smaller size
 * Swap out output transistors with an optoisolator
 * Use radio power (for radio integration)
-* Add electronic keying for traditional keyed radios
-* Learn morse code
+* Add in-software electronic keying for traditional keyed radios
