@@ -2,7 +2,7 @@
 
 <!--Apparenly amateur radio operators still use Morse code.  It's efficient and uses little bandwith.
 After finding how much a proper mechanical switch--[key or keyer](http://hamuniverse.com/n2eycodekeys.html)--costs, I resolved to building one.-->
-This project provides a touch interface for sending morse code via amateur radio. The code is plug-and-play with the ATtiny85 microcontroller.
+This project provides a touch interface for sending morse code via amateur radio. The code is plug-and-play with the ATtiny85 microcontroller. The contacts can be any conductive surface.
 
 ---
 ### Schematic
@@ -14,5 +14,6 @@ This project provides a touch interface for sending morse code via amateur radio
 * Rework connections to allow bit-shifting to replace `if` statements
 * Lay out a PCB with SMD components for a smaller size
 * Swap out output transistors with an optoisolator
-* Use radio power (for radio integration)
+* Power the microcontroller from the radio
 * Add in-software electronic keying for traditional keyed radios
+* Add self-trained capacitive senstivity to account for humidity/installation conditions
